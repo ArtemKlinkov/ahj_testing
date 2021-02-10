@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+}
+
+.validate-card-number-widget {
+  margin: 50px 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:not(:first-child) {
+  margin-left: 3px;
+}
+
+.card-images {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.card-img {
+  width: 40px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.active {
+  filter: none;
+  opacity: 1;
+}
+
+.card-number-input {
+  width: 200px;
+  height: 30px;
+  margin-right: 5px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.validate-button {
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: #5cb85c;
+  border-color: transparent;
+  border-radius: 3px;
+}
+
+.validate-button:focus {
+  outline: 0;
+}
+
+.error-message-container {
+  margin: 2px;
+}
