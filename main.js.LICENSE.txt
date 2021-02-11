@@ -1,0 +1,10 @@
+/**
+ * @license
+ * american-express.png
+ * diners-club.png
+ * discover.png
+ * jcb.png
+ * mastercard.png
+ * mir.png
+ * visa.png
+ */
